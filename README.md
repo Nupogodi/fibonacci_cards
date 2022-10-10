@@ -95,30 +95,30 @@ Styling:
 
 
 Tasks:
-    1. Create the outline of the project []
+    1. Create the outline of the project [X]
         -remove unnecessary files from cra [X]
-        -apply basic styling and css resets []
-    2. Create Carousel component
-        -create Carousel markup
-        -apply basic styling 
-        -add state to render cards
-    3. Create Card component 
-        -create card markup
-        -apply basic styling
-    4. Create Button component
-        -create button markup
-        -apply basic styling
-    5. Create controls component
-        -create the markup
-        -apply basic styling
-    6. Connect controls component to the carousel
-        -add state and event handlers for click events
-    7. Add fibonacci sequence to the Cards
-        -write fibonacci function
-        -assign function's output to the corresponding card
-    8. Set the background color of each card to a random hex color
-        -write random hex string generator
-        -set the background of card component to random color
+        -apply basic styling and css resets [X]
+    2. Create Carousel component []
+        -create Carousel markup []
+        -apply basic styling []
+        -add state to render cards []
+    3. Create Card component []
+        -create card markup []
+        -apply basic styling []
+    4. Create Button component []
+        -create button markup []
+        -apply basic styling []
+    5. Create controls component []
+        -create the markup []
+        -apply basic styling []
+    6. Connect controls component to the carousel []
+        -add state and event handlers for click events []
+    7. Add fibonacci sequence to the Cards []
+        -write fibonacci function []
+        -assign function's output to the corresponding card []
+    8. Set the background color of each card to a random hex color []
+        -write random hex string generator []
+        -set the background of card component to random color []
 
 
 

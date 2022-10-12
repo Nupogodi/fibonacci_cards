@@ -1,0 +1,70 @@
+.carousel__container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  --items-per-screen: 4;
+
+  display: flex;
+  flex-grow: 1;
+  transition: transform 250ms ease-in-out;
+  transform: translateX(-100%);
+}
+
+.card {
+  background-color: salmon;
+  aspect-ratio: 16 / 9;
+  flex: 0 0 calc(100% / var(--items-per-screen));
+  max-width: calc(100% / var(--items-per-screen));
+  transition: all 0.5s ease;
+  border-right: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.card__subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.handle {
+  border: none;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  z-index: 10;
+  cursor: pointer;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  line-height: 0;
+  transition: all 150ms ease-in-out;
+  width: var(--handle-size);
+  height: 100%;
+
+  position: absolute;
+}
+
+.rightHandle {
+  right: 0;
+}
+
+.handle:hover,
+.handle:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    --items-per-screen: 3;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    --items-per-screen: 2;
+  }
+}

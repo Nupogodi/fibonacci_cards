@@ -1,3 +1,13 @@
+/* Constants */
+:root {
+  --clr-dark: #333;
+  --clr-light: #dcdcdc;
+
+  /* Carousel */
+  --img-gap: 0.25rem;
+  --handle-size: 3rem;
+}
+
 /* Resets */
 *,
 *::before,
@@ -11,9 +21,27 @@ ul {
   list-style-type: none;
 }
 
+img {
+  width: 100%;
+}
+
 /* End of Resets */
 
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.6;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
+
+/* Utility */
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End of Utility */

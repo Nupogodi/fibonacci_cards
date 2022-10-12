@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Card from 'components/Card';
 
 import styles from './Carousel.module.css';
 
@@ -56,7 +57,7 @@ const Carousel = () => {
         >
           {dummyData.map((number) => (
             <li key={number} className={styles.card}>
-              <p className={styles.card__subtitle}>{number}</p>
+              <Card value={number} />
             </li>
           ))}
         </ul>

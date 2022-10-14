@@ -1,12 +1,4 @@
-/* Constants */
-:root {
-  --clr-dark: #333;
-  --clr-light: #dcdcdc;
 
-  /* Carousel */
-  --img-gap: 0.25rem;
-  --handle-size: 3rem;
-}
 
 /* Resets */
 *,

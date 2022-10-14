@@ -1,0 +1,10 @@
+/* Constants */
+:root {
+    --clr-dark: #333;
+    --clr-light: #dcdcdc;
+    --clr-accent: #241A3E;
+  
+    /* Carousel */
+    --img-gap: 0.25rem;
+    --handle-size: 3rem;
+  }

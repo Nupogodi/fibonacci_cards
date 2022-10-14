@@ -1,5 +1,5 @@
 .card {
-  background-color: salmon;
+  background-color: var(--clr-accent);
   min-width: 100%;
   min-height: 100%;
 

@@ -60,7 +60,7 @@ const Carousel = () => {
           <div className={styles.progressBar}></div>
         </div>
       </div>
-      <div className={styles.carousel__container}>
+      <div className={styles.carouselContainer}>
         <button
           className={styles.handle}
           onClick={(e) => handlePrev(e, translateIncrement)}
